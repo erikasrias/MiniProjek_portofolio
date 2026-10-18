@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="item/logo.png" width="500px" height="500px">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">N.W. Erika Sriastiti</div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks" data-i18n="navLinks">
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#profile">Profil</a></li>
+                <li><a href="#skills">Keterampilan</a></li>
+                <li><a href="#massageForm">Kontak</a></li>
+                <li><a href="CV.pdf" download class="btn-cv">CV Download</a></li>
+                <li><a href="en.html"><img src="item/en.svg" alt="English" width="20"></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero" data-i18n="hero">
+        <div class="hero-text">
+            <p>Halo!</p>
+            <h1>Ni Wayan Erika Sriastiti</h1>
+            <p>Mahasiswi Sistem Informasi dengan minat dalam bidang pengembangan web, analisis data, dan perancangan
+                sistem untuk solusi IT yang efektif.</p>
+        </div>
+        <div class="hero-image-container">
+            <div class="element element-top"></div>
+            <div class="element element-back"></div>
+            <div class="main-photo-frame">
+                <img src="item/profil.png" alt="Foto Portofolio">
+            </div>
+            <div class="element element-bottom"></div>
+        </div>
+    </section>
+
+    <section class="profile-skills" id="profile" data-i18n="profile">
+        <div class="profile">
+            <div class="profile-outline">
+                <div class="profile-grid">
+                    <h2>Profil</h2>
+                    <div class="Profil-actions">
+                        <button id="openModal">Profilku</button>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-outline">
+                <div class="experience-grid">
+                    <h2>Pengalaman</h2>
+                    <ul>
+                        <li><strong>Pengembangan Web SKKPD (2025):</strong>
+                            <p>
+                                Membangun aplikasi Sistem Kredit Kompetensi Peserta Didik menggunakan PHP, SQL, dan
+                                framework Tailwind CSS sebagai proyek akhir di SMK Rekayasa Perangkat Lunak (RPL).
+                            </p>
+                        </li>
+                        <li><strong>Pengembangan Web Apotek (2024):</strong>
+                            <p>
+                                Membangun aplikasi Sistem Kredit Kompetensi Peserta Didik menggunakan PHP, SQL, dan
+                                framework Tailwind CSS sebagai proyek akhir di SMK Rekayasa Perangkat Lunak (RPL).
+                            </p>
+                        </li>
+                        <li><strong> pengembang Webside Teba Wisata (2023):</strong>
+                            <p>
+                                Platform informasi destinasi Ubud yang dibangun dengan Bootstrap 5 untuk pengalaman
+                                eksplorasi wisata yang responsif dan interaktif.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills" id="skills">
+            <div class="skills-outline">
+                <h2>Keterampilan</h2>
+                <div class="skill-grid">
+                    <div class="skill-box"><img src="item/html.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/css.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/javascript.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/bootstrap.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/tailwind.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/php.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/java.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/sql.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/figma.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/canva.png" alt="skill-icon" width="30" height="30"></div>
+                </div>
+            </div>
+            <div class="certification" id="certification">
+                <div class="certification-outline">
+                    <h2>Sertifikasi</h2>
+                    <ul>
+                        <li><strong>Software Development: Junior Programmer (2025-2028)</strong>
+                            <p>Badan Sertifikasi Profesi Nasional</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contac" id="contac">
+                <div class="contac-outline">
+                    <h2>Hubungi</h2>
+                    <div class="contac-grid">
+                        <div class="social-box"><a href="https://wa.me/6281246720153"><img src="item/WhatsApp.svg"
+                                    alt="WhatsApp" width="30" height="30"></a></div>
+                        <div class="social-box"><a href="https://www.instagram.com/yan_erika.asti/"><img
+                                    src="item/Instagram.svg" alt="Instagram" width="30" height="30"></a></div>
+                        <div class="social-box"><a href="https://www.instagram.com/yan_erika.asti/"><img
+                                    src="item/GitHub.svg" alt="Github" width="30" height="30"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="form-section" id="massageForm">
+        <div class="form-container">
+            <form id="sendForm">
+                <h2>Form</h2>
+                <input type="text" id="name" name="name" placeholder="Nama" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+                <div class="btn-right">
+                    <button type="submit" class="send-btn">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 EriSAsti.</p>
+    </footer>
+
+    <div id="myProfile" class="modal" data-i18n="profile">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Ni Wayan Erika Sriastiti</h3>
+            <p>Mahasiswa Sistem Informasi dengan latar belakang pendidikan SMK Rekayasa Perangkat Lunak (RPL). Ia
+                memiliki spesialisasi dalam memadukan keahlian pemrograman teknis dengan analisis data untuk menciptakan
+                solusi IT yang efektif.</p>
+            <ul>
+                <h3>Pengalaman Kerja & Proyek IT</h3>
+                <li> <strong>Pengembangan Web SKKPD (2025): </strong>
+                    Membangun aplikasi Sistem Kredit Kompetensi Peserta Didik menggunakan PHP, SQL, dan framework
+                    Tailwind CSS
+                </li>
+                <li> <strong>Proyek Aplikasi Apotek (2024): </strong>
+                    Mengembangkan sistem pengelolaan data obat dan transaksi menggunakan PHP, SQL, dan Bootstrap.
+                </li>
+                <li> <strong>Praktik Kerja Lapangan di ISI Denpasar (2023): </strong>
+                    Melakukan optimasi pada 25 situs web universitas, berhasil mengurangi error sebesar 50% dan
+                    meningkatkan kecepatan muat sebesar 50%.
+                </li>
+                <li><strong> pengembang Webside Teba Wisata (2023):</strong>
+                    Platform informasi destinasi Ubud yang dibangun dengan Bootstrap 5 untuk pengalaman
+                    eksplorasi wisata yang responsif dan interaktif. </li>
+            </ul>
+            <ul>
+                <h3>Pengalaman Organisasi & Relawan</h3>
+                <li><strong>Anggota SEHATI (2022–2025):</strong>
+                    Mengelola logistik, pemeliharaan fasilitas, dan inventaris peralatan operasional.
+                </li>
+                <li><strong>Sukarelawan Pengajar Bahasa Inggris (2022–2024):</strong>
+                    Menyusun materi kreatif dan mengajar lebih dari 10 siswa tingkat pra-sekolah hingga sekolah dasar.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- <script src="i18n.js"></script> -->
+    <script src="main.js"></script>
+</body>
+
+</html>

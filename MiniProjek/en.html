@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="item/logo.png" width="500px" height="500px">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">N.W. Erika Sriastiti</div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#massageForm">Contact</a></li>
+                <li><a href="CV.pdf" download class="btn-cv">CV Download</a></li>
+                <li><a href="index.html"><img src="item/id.svg" alt="English" width="20"></a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="hero">
+        <div class="hero-text">
+            <p>Halo!</p>
+            <h1>Ni Wayan Erika Sriastiti</h1>
+            <p>Information Systems student with a focus on web development, data analysis, and system design to deliver
+                effective IT solutions.</p>
+        </div>
+        <div class="hero-image-container">
+            <div class="element element-top"></div>
+            <div class="element element-back"></div>
+            <div class="main-photo-frame">
+                <img src="item/profil.png" alt="Foto Portofolio">
+            </div>
+            <div class="element element-bottom"></div>
+        </div>
+    </section>
+
+    <section class="profile-skills" id="profile">
+        <div class="profile">
+            <div class="profile-outline">
+                <div class="profile-grid">
+                    <h2>Profile</h2>
+                    <div class="actions">
+                        <button id="openModal">My Profile</button>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-outline">
+                <div class="experience-grid">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li><strong>SKKPD Web Development (2025):</strong>
+                            Developed a Student Competency Credit System application using PHP, SQL, and the Tailwind
+                            CSS framework as a final project at the Software Engineering Vocational School (RPL).
+                        </li>
+                        <li><strong>Pharmacy Web Development (2024):</strong>
+                            Developed a medication data and transaction management system using PHP, SQL, and Bootstrap.
+                        </li>
+                        <li><strong> Teba Wisata Webside Developer (2023):</strong>
+                            Ubud destination information platform built with Bootstrap 5 for a responsive and
+                            interactive tourism exploration experience. </li>
+                </div>
+            </div>
+        </div>
+        <div class="skills" id="skills">
+            <div class="skills-outline">
+                <h2>Skills</h2>
+                <div class="skill-grid">
+                    <div class="skill-box"><img src="item/html.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/css.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/javascript.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/bootstrap.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/tailwind.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/php.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/java.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/sql.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/figma.svg" alt="skill-icon" width="30" height="30"></div>
+                    <div class="skill-box"><img src="item/canva.png" alt="skill-icon" width="30" height="30"></div>
+                </div>
+            </div>
+            <div class="certification" id="certification">
+                <div class="certification-outline">
+                    <h2>Certification</h2>
+                    <ul>
+                        <li><strong>Software Development: Junior Programmer (2025-2028)</strong>
+                            <p>National Professional Certification Agency</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contac-outline">
+                <h2>Contact</h2>
+                <div class="contac-grid">
+                    <div class="social-box"><a href="https://wa.me/6281246720153"><img src="item/WhatsApp.svg"
+                                alt="WhatsApp" width="25" height="25"></a></div>
+                    <div class="social-box"><a href="https://www.instagram.com/yan_erika.asti/"><img
+                                src="item/Instagram.svg" alt="Instagram" width="25" height="25"></a></div>
+                    <div class="social-box"><a href="https://www.instagram.com/yan_erika.asti/"><img
+                                src="item/GitHub.svg" alt="Github" width="25" height="25"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="form-section" id="massageForm">
+        <div class="form-container">
+            <form id="sendForm">
+                <h2>Form</h2>
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <textarea id="message" name="message" placeholder="Message" required></textarea>
+                <div class="btn-right">
+                    <button type="submit" class="send-btn">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 EriSAsti.</p>
+    </footer>
+
+    <div id="myProfile" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Ni Wayan Erika Sriastiti</h3>
+            <p>Erika is an Information Systems student at ITB Stikom Bali with a background in Software Engineering
+                (RPL). She specializes in combining technical programming skills with data analysis to create effective
+                IT solutions.</p>
+            <ul>
+                <h3>IT Work Experience & Projects</h3>
+                <li> <strong>SKKPD Web Development (2025): </strong>
+                    Building a Student Competency Credit System application using PHP, SQL, and the Tailwind CSS
+                    framework
+                </li>
+                <li> <strong>Pharmacy Application Project (2024): </strong>
+                    Developing a medication and transaction data management system using PHP, SQL, and Bootstrap.
+                </li>
+                <li> <strong>Fieldwork Internship at ISI Denpasar (2023): </strong>
+                    Optimized 25 university websites, successfully reducing errors by 50% and
+                    increasing loading speed by 50%.
+                </li>
+                <li><strong> Teba Wisata Webside Developer (2023):</strong>
+                    Ubud destination information platform built with Bootstrap 5 for a responsive and
+                    interactive tourism exploration experience. </li>
+            </ul>
+            <ul>
+                <h3>Organizational & Volunteer Experience</h3>
+                <li><strong>SEHATI Member (2022–2025):</strong>
+                    Managed logistics, facility maintenance, and operational equipment inventory.
+                </li>
+                <li><strong>Volunteer English Teacher (2022–2024):</strong>
+                    Developed creative materials and taught more than 10 students from preschool to elementary school.
+                </li>
+            </ul>
+            <h4>Social Media</h4>
+            <div class="social-grid">
+                <a href="https://wa.me/6281246720153" class="social-box"><img src="WA.svg" alt="Deskripsi Gambar"
+                        width="25" height="25"></a>
+                <a href="https://www.instagram.com/yan_erika.asti/" class="social-box"><img src="IG.svg"
+                        alt="Deskripsi Gambar" width="25" height="25"></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
